@@ -1,0 +1,29 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://titoffroma.github.io/goit-js-hw-08-gallery-repetated",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-08-gallery-repetated/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titoffroma/goit-js-hw-08-gallery-repetated.git"
+  },
+  "keywords": [],
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.5.0",
+    "sass": "^1.27.0"
+  }
+}
